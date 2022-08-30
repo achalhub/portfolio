@@ -50,7 +50,7 @@
             <img class="title__profile" src="assets\profile.png">
             <div class="title__container">
                 <h1 class="title__bio"> Olá, meu nome é André Chalhub e trabalho com linguagem de programação</h1>
-                <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <h3 class="title__subsection">Sou formado em Engenharia de Recrusos Hídricos e Meio Ambiente e atualmente estou participando do projeto Oracle ONE na Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
                     <li class="title__network__item"><a href="https://github.com/achalhub">Github <img src="assets\arrow.png"> </a></li>
@@ -69,9 +69,14 @@
     <!-- Sección sobre mi -->
     <section class="about" id="sobre-mi">
         <div class="about__container">
-            <h3 class="about__title">Sobre mi</h3>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
-            <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+            <h3 class="about__title">Sobre mim</h3>
+
+            <p class="about__paragraph">Formado em Engenharia Ambiental pela UFF e Técnico em Saneamento Ambiental pela FAETEC-RJ com ampla experiência na área ambiental, com ênfase em Geoprocessamento, Hidrologia, Licenciamento Ambiental, Saneamento Ambiental e Gestão Ambiental, atualmente cursando Engenharia de Produção com ênfase em controle de Dados e Análise dos Indicadores, estudo de viabilidade de projetos, gestão de banco de dados, elaboração de relatórios. Experiência com licenciamento ambiental. </p>
+
+            <p class="about__paragraph">Durante meus dois ultimos anos na Universidade, uma de minhas responsabilidades era identificar e criar relatórios utilizando softwares como Power BI para elaboração de indicadores e tendencias hitóricas de precipitação no Parque Nacional da Serra dos Orgãos - Parnaso. Atualmente trabalho na elaboração de indicadores da empresa, juntamente com a elaboração de automaticações com o uso de linguagem como Python, VBA, DAX, Power Query e Microsoft Automate. </p> 
+                
+            <p class="about__paragraph">No inicio de 2022, recebi uma oportunidade para aprender programação para elaboração e criação de sites ofertada pela Alura e Oracle, além da formação em Ciência do Dados, no período, participei de diversos cursos para formação de profissionais nas áreas de Back-End e Front-End. Na formação, aprendi linguagens como HTML, CSS, JavaSCrip, Grid e Flex Box. <br><br></p>
+
             <!-- Si quieres, pon tú firma acá! -->
             <img src="assets\signature.png">
         </div>
@@ -258,7 +263,7 @@
                 <h3 class="experience__text">Projeto Alura </h3>
                     <div class="experience__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/achalhub/flexbox"><button class="experiencia__botao--repo">Repositório</button></a></span>
                             <span class="experience__demo"><a href=""><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
@@ -287,12 +292,12 @@
                     <h2 class="formcontato__title">Contato</h2>
                     <h3 class="formcontato__subtext">Deseja entrar em contato?</h3>
                     <h3 class="formcontato__subtext">Preencha o formulário a seguir e entrarei em contato o mais breve possível. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nome">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensagem"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar Mensagem</button>
+                    <form class="formcontato__form" id="form" name="form">
+                        <input class="formcontato__input" id="nome" type="text" name="nombre" required placeholder="Nome">
+                        <input class="formcontato__input" id="email" type="email" name="email" required placeholder="E-mail">
+                        <input class="formcontato__input" id="assunto" type="text" name="asunto" required placeholder="Assunto">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" required placeholder="Mensagem"></textarea>
+                        <button type="submit" id="botao" class="formcontato__botao">Enviar Mensagem</button>
                     </form>
                 </div>
             </div>
