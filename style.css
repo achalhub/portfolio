@@ -64,6 +64,7 @@ section.menu{
     align-items: center;
     background-color: var(--cor-de-fundo);
     padding: 01rem 10% 0 10%;
+    border-bottom: 0.1rem solid #142234;
 }
 
 .menu__title {
@@ -375,6 +376,7 @@ div.academic__courses__box:hover {
 /* experiencia*/
 .experience__section__title, .experiencie__box, .experience__box, .formcontato, .footer {
     padding: 0rem 10% 0 10%;
+    
 }
 
 .experience__section__title {
@@ -385,7 +387,8 @@ div.academic__courses__box:hover {
     line-height: 2.375rem;    
     /* identical to box height */
     text-align: center;
-    margin: 2.5rem 0;
+
+    padding-top: 6rem;
 }
 
 .experiencie__box {
