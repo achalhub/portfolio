@@ -324,7 +324,7 @@ div.hobbies__box ul:hover, div.skills__box ul:hover {
 }
 
 .academic {
-    position: relative;
+
     background-color: var(--cor-de-fundo-destaque);
     padding: 1rem 10% 0 10%;
     margin-top: 2rem;
