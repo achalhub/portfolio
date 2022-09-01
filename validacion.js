@@ -1,24 +1,16 @@
 //Haz tú validación en javascript acá
-/*var form = document.getElementById('form');
-var nome = document.getElementsById('nome');
-var email = document.getElementsById('email');
-var assunto = document.getElementsById('assunto');
-var mensagem = document.getElementsById('mensagem');
-var botao = document.getElementsById('botao');*/
+console.log("teste")
 
-/*
+/*Abrindo popup do Curriculo*/
+function abrir__cv() {
+    let abrir__cv = document.querySelector('.cv__pdf')
+    abrir__cv.style.display = 'block';
 
-var botao = document.querySelector("#botao");
 
-function botaoFormulario() {
-    event.preventDefault();
-    console.log("Oi eu sou o botao e fui clicacdo")
 }
 
-var clicakbotao = botao.addEventListener("click",botaoFormulario);
 
-*/
-console.log("teste")
+/*####################*/
 
 
 var botao = document.querySelector("#botao");

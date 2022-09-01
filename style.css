@@ -79,9 +79,7 @@ section.menu{
 
 section nav{
     flex-grow: 1;
-    order: 1 2 3 4 5;
-
-    
+    order: 1 2 3 4 5;   
 }
 
 .menu__list {
@@ -118,6 +116,41 @@ section nav{
 .menu__list__item__email {
     font-weight: bold;
 }
+
+/*######################################################################################*/
+/*Sección popup do PDF*/
+.cv__pdf {
+    display: none;
+}
+
+.conteiner__menu__pdf {
+    position: absolute;
+    top: 0rem;
+    height: 643.5%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--cor-de-fundo);
+}
+
+.caixa__pdf {
+    margin: 2rem 2.7rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.caixa__pdf div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caixa__pdf div p {
+    margin: 0.5rem 2rem 1rem 1rem;
+}
+
+
+
 
 
 
@@ -165,7 +198,7 @@ section div.title__div{
 }
 
 /* Animação no link do GITHUB LINKDIN INSTAGRAM CURRICULO */
-li.title__network__item a{
+li.title__network__item a, li.title__network__item nav{
     margin-right: 1rem;
     padding: 0.5rem;
     background-color: white;
@@ -174,14 +207,14 @@ li.title__network__item a{
 }
 
 
-li.title__network__item a:hover {
+li.title__network__item a:hover, li.title__network__item nav:hover {
     background-color: black;
     border-radius: 0.2rem;
     color: white;
 
 }
 
-li.title__network__item a:active {
+li.title__network__item a:active, li.title__network__item nav:active {
     transform: scale(1.07);
 	background-color: red;
 	cursor: wait;
