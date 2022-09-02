@@ -514,6 +514,7 @@ div.academic__courses__box:hover {
     box-sizing: border-box;
     border-radius: 0.3rem;
     transition: 1.07s background;
+    cursor: pointer;
 }
 
 .experiencia__botao--repo:hover {
@@ -540,6 +541,7 @@ div.academic__courses__box:hover {
     box-sizing: border-box;
     border-radius: 0.3rem;
     transition: 0.5s background;
+    cursor: pointer;
 }
 
 .experience__botao--demo:hover {
@@ -604,6 +606,7 @@ div.academic__courses__box:hover {
     box-sizing: border-box;
     border-radius: 0.3rem;
     transition: 0.5s background;
+    cursor: pointer;
 }
 
 .formcontato__botao:hover {
