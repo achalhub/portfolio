@@ -1,13 +1,19 @@
 //Haz tú validación en javascript acá
 console.log("teste")
 
-/*Abrindo popup do Curriculo*/
-function abrir__cv() {
+/*todas as funções do botao*/
+function abrir__cv() {   /*abrindo o cv clicando no botao*/
     let abrir__cv = document.querySelector('.cv__pdf')
     abrir__cv.style.display = 'block';
-
-
 }
+
+function fechando__cf() {   /*fechando o cv clicando no botao*/
+    let fechando__cv = document.querySelector('.cv__pdf')
+    fechando__cv.style.display = 'none';
+}
+
+
+
 
 
 /*####################*/

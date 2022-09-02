@@ -126,14 +126,14 @@ section nav{
 .conteiner__menu__pdf {
     position: absolute;
     top: 0rem;
-    height: 643.5%;
+    height: 291.815625rem;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: var(--cor-de-fundo);
 }
 
 .caixa__pdf {
-    margin: 2rem 2.7rem;
+    margin: 2rem 1.5rem;
     padding: 1rem;
     border-radius: 2rem;
     height: 30%;
@@ -144,14 +144,34 @@ section nav{
     display: flex;
     justify-content: flex-end;
 }
-
-.caixa__pdf div p {
-    margin: 0.5rem 2rem 1rem 1rem;
+.caixa__pdf iframe {
+    width: 100%;
+    height: 95%;
+    border: none;
+    
 }
 
+.caixa__pdf div p, .caixa__pdf div a {
+    margin: 0.5rem 1rem 1rem 0rem;
+    color: #FFFFFF;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    border-radius: 0.5rem;
+    transition: 1.5s background;
+}
 
+.caixa__pdf div p:hover , .caixa__pdf div a:hover {
+    background-color: #FFFFFF;
+    border-radius: 0.2rem;
+    color: black;
+}
 
-
+.caixa__pdf div p:active, .caixa__pdf div a :active {
+    transform: scale(1.07);
+	background-color: red;
+	cursor: wait;
+}
 
 
 /*######################################################################################*/
@@ -1138,6 +1158,64 @@ Utiliza las referencias de los breakpoints @media abajo */
     .menu__list__item__email {
         font-weight: bold;
     }
+
+
+    /*######################################################################################*/
+    /*Sección popup do PDF*/
+    .cv__pdf {
+        display: none;
+    }
+
+    .conteiner__menu__pdf {
+        position: absolute;
+        top: 0rem;
+        height: 356.618rem;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        color: var(--cor-de-fundo);
+    }
+
+    .caixa__pdf {
+        margin: 2rem 1.5rem;
+        padding: 1rem;
+        border-radius: 2rem;
+        height: 10%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .caixa__pdf div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .caixa__pdf iframe {
+        width: 100%;
+        height: 85%;
+        border: none;
+        
+    }
+
+    .caixa__pdf div p, .caixa__pdf div a {
+        margin: 0.5rem 1rem 1rem 0rem;
+        color: #FFFFFF;
+        padding: 1rem;
+        background: rgba(0, 0, 0, 0.5);
+        font-weight: 700;
+        border-radius: 0.5rem;
+        transition: 1.5s background;
+    }
+
+    .caixa__pdf div p:hover , .caixa__pdf div a:hover {
+        background-color: #FFFFFF;
+        border-radius: 0.2rem;
+        color: black;
+    }
+
+    .caixa__pdf div p:active, .caixa__pdf div a :active {
+        transform: scale(1.07);
+        background-color: red;
+        cursor: wait;
+    }
+
 
 
     /*######################################################################################*/
