@@ -409,7 +409,7 @@ div.academic__courses__box:hover {
 .academic__courses__item__img {
     text-align: center;
     background-color: white;
-    height: auto;
+    height: 12rem;
 }
 
 .academic__courses__item__img img {
@@ -969,11 +969,10 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
 
-    .academic__courses__item__img {
+    li.academic__courses__item__img {
         text-align: center;
         background-color: white;
         height: 5rem;
-
     }
 
     .academic__courses__item__img img {
@@ -1103,7 +1102,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 446px) {
 
 /*######################################################################################*/
     /* Menú */
@@ -1485,10 +1484,10 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
 
-    .academic__courses__item__img {
+    li.academic__courses__item__img {
         text-align: center;
         background-color: white;
-        height: 9rem;
+        height: auto;
 
     }
 
