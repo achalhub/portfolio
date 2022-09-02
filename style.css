@@ -223,6 +223,7 @@ li.title__network__item a, li.title__network__item nav{
     padding: 0.5rem;
     background-color: white;
     transition: 1.5s background;
+    cursor: pointer;
 
 }
 
@@ -787,7 +788,6 @@ Utiliza las referencias de los breakpoints @media abajo */
         background-color: white;
         transition: 1.5s background;
 
-
     }
 
 
@@ -803,6 +803,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         background-color: red;
         cursor: wait;
     }
+
 
     /*######################################################################################*/
     /*Sección About*/
