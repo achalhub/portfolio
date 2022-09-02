@@ -1454,9 +1454,11 @@ Utiliza las referencias de los breakpoints @media abajo */
         margin: 0;
     }
 
-    .academic__courses__list{
+    ul.academic__courses__list{
         margin: 0;
         padding: 0;
+        height: auto;
+        height: auto;
 
     }
 
@@ -1473,6 +1475,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         padding: 1rem;
         transition: 1.5s background ;
         width: auto;
+        height: auto;
 
 
     }
