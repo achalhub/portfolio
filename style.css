@@ -320,7 +320,7 @@ div.hobbies__box ul {
 
 .skills__line {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items:  center;  
     flex-wrap: wrap;
 
@@ -342,8 +342,8 @@ div.skills__box ul {
     text-align: left;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
 
 .skills__name, .skills__img {
@@ -388,11 +388,11 @@ div.hobbies__box ul:hover, div.skills__box ul:hover {
 
 .academic__courses{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
-div.academic__courses__box{
+div.academic__courses__box {
 
     padding: 1rem;
     transition: 1.5s background ;
@@ -443,13 +443,15 @@ div.academic__courses__box:hover {
     /* identical to box height */
     text-align: center;
 
-    padding-top: 6rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .experiencie__box {
     display: flex;
     justify-content: baseline;
-    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 
 }
 
@@ -471,11 +473,21 @@ div.academic__courses__box:hover {
 
 /* experiencia*/
 
+.experience__box, .experiencie__box{
+    transition: 1.5s background;
+}
+
+.experience__box:hover, .experiencie__box:hover{
+    background-color: black;
+    color: white;
+}
+
 .experience__box {
     display: flex;
     flex-direction: row-reverse;
     justify-content: baseline;
-    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 
 
 }
@@ -1007,8 +1019,8 @@ Utiliza las referencias de los breakpoints @media abajo */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 3rem;
-
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
 
     }
 
@@ -1037,7 +1049,8 @@ Utiliza las referencias de los breakpoints @media abajo */
         display: flex;
         flex-direction: column;
         justify-content: baseline;
-        margin-bottom: 3rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
 
 
     }
@@ -1512,8 +1525,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     .experiencie__box, .experience__box  {
         padding-top: 0;
-        padding-right: 1rem;
-        padding-left: 1rem;
+
 
     }
 
@@ -1533,7 +1545,8 @@ Utiliza las referencias de los breakpoints @media abajo */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 3rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
 
 
     }
@@ -1563,7 +1576,8 @@ Utiliza las referencias de los breakpoints @media abajo */
         display: flex;
         flex-direction: column;
         justify-content: baseline;
-        margin-bottom: 3rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
 
 
     }
