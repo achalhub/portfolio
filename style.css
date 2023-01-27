@@ -464,7 +464,7 @@ div.academic__courses__box:hover {
 
 /*ocultando as imagens pra celular*/
 div > iframe + img {
-    display: none;
+    display: initial;
 }
 
 
@@ -1583,6 +1583,8 @@ Utiliza las referencias de los breakpoints @media abajo */
 
     div > iframe + img {
         display: initial;
+
+
     }
 
     .experience__info{
