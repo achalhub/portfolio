@@ -19,7 +19,7 @@ coloque nas sessões indicadas*/
 
 html {
 
-    color: var(--cor-de-link);
+    color: var(--cor-de-texto);
     text-align: justify;  
 
 }
@@ -37,7 +37,7 @@ ol, ul,li {
 }
 a{
     text-decoration: none;
-    color: var(--cor-de-link);
+    color: var(--cor-de-texto);
 }
 
 /*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
@@ -496,7 +496,7 @@ div.academic__courses__box:hover {
     justify-content: baseline;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
-    background-color: #adb1b7;
+    background-color: rgb(235, 229, 229);
 
 
 }
