@@ -9,11 +9,13 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #464646;
-   --cor-de-texto: #464646;
+   --cor-de-texto: black;
    --cor-de-fundo-destaque: #EAF2FD;
    --cor-de-botoes-e-figuras: #FFFFFF;
 
 }
+
+
 
 html {
 
@@ -452,12 +454,18 @@ div.academic__courses__box:hover {
     justify-content: baseline;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
+    background-color: white;
 
 }
 
 .experience__img {
     width: 60%;
 }
+
+#experience__img__celular {
+    display: none;
+}
+
 
 .experience__info{
     width: 40%;
@@ -488,6 +496,7 @@ div.academic__courses__box:hover {
     justify-content: baseline;
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
+    background-color: #adb1b7;
 
 
 }
@@ -1538,7 +1547,6 @@ Utiliza las referencias de los breakpoints @media abajo */
     .experiencie__box, .experience__box  {
         padding-top: 0;
 
-
     }
 
 
@@ -1559,19 +1567,21 @@ Utiliza las referencias de los breakpoints @media abajo */
         justify-content: center;
         padding-bottom: 1.5rem;
         padding-top: 1.5rem;
-
-
     }
+
 
     img.experience__img {
         width: 100%;
         height: 90%;
-
     }
 
+
     iframe.experience__img {
-        width: 100%;
-        height: 10rem;
+        display: none;
+    }
+
+    #experience__img__celular {
+        display: initial;
     }
 
     .experience__info{
