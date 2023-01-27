@@ -464,7 +464,7 @@ div.academic__courses__box:hover {
 
 /*ocultando as imagens pra celular*/
 div > iframe + img {
-    display: initial;
+    display: none;
 }
 
 
