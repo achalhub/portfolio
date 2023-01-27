@@ -462,7 +462,8 @@ div.academic__courses__box:hover {
     width: 60%;
 }
 
-#experience__img__celular {
+/*ocultando as imagens pra celular*/
+div > iframe + img {
     display: none;
 }
 
@@ -1576,11 +1577,11 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
 
-    div iframe.experience__img {
+    div > iframe {
         display: none;
     }
 
-    #experience__img__celular {
+    div > iframe + img {
         display: initial;
     }
 
