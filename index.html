@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <!-- Referencia de la hoja de estilo de Css -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,10 +13,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
+
+
+
+
+    <!--Continuação do codigo-->    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <!--Link e CSS do Corressel slide Bar-->
+        <link rel="stylesheet" href="carouselbar.css">
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <title> Meu Portafólio</title>
 </head>
 <body>
@@ -34,8 +48,7 @@
             <ul class="menu__list">
                 <li class="menu__list__item"><a href="#linksobremim">Sobre mim</a></li>
                 <li class="menu__list__item"><a href="#linkskills">Skills</a></li>
-                <li class="menu__list__item"><a href="#skills">Hobbies</a></li>
-                <li class="menu__list__item"><a href="#hobbies">Formação</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formação</a></li>
                 <li class="menu__list__item"><a href="#xp">Projetos</a></li>
                 <li class="menu__list__item menu__list__item__email"><a href="#contacto"> <b> achalhub@gmail.com </b> </a></li>
         </nav>
@@ -59,13 +72,13 @@
         <div class="title__div">
             <img class="title__profile" src="assets\profile.png">
             <div class="title__container">
-                <h1 class="title__bio"> Olá, meu nome é André Chalhub e trabalho com Análises de Dados.</h1>
-                <h3 class="title__subsection" id="linksobremim">Estou cursando Engenharia de Produção, formado em Engenharia de Recrusos Hídricos e participei do projeto Oracle ONE na Alura Latam.</h3>
+                <h1 class="title__bio"> Olá, bem-vindo ao meu site portfólio!</h1>
+                <h3 class="title__subsection" id="linksobremim">Formado em Engenharia de Recrusos Hídricos e com amplo conhecimento em Análise de Dados.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
                     <li class="title__network__item"><a href="https://github.com/achalhub">Github <img src="assets\arrow.png"> </a></li>
                     <li class="title__network__item"><a href="https://www.linkedin.com/in/andrechalhub/">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="https://www.linkedin.com/in/andrechalhub/">Instagram <img src="assets\arrow.png"></a></li>
+                    <!--<li class="title__network__item"><a href="https://www.linkedin.com/in/andrechalhub/">Instagram <img src="assets\arrow.png"></a></li>--> 
                     <li class="title__network__item abrir__cv" onclick="abrir__cv()"><nav>Currículo <img src="assets\arrow.png"></nav></li>
                 </ul>
             </div>
@@ -85,9 +98,11 @@
 
             <p class="about__paragraph">Durante meus dois últimos anos na Universidade, tive a oportunidade de desenvolver minhas habilidades como engenheiro ambiental, especialmente na identificação e criação de relatórios utilizando softwares como Power BI para elaboração de indicadores e tendências históricas de precipitação no Parque Nacional da Serra dos Orgãos - Parnaso.</p> 
             
-            <p class="about__paragraph">Atualmente, trabalho elaborando indicadores para uma empresa CAPEMISA e também me dedico à elaboração de automatizações com o uso de linguagens como <b>Python, VBA, DAX, Power Query, Microsoft Automate e SQL.</b></p>
+            <p class="about__paragraph">Trabalho elaborando indicadores para uma empresa CAPEMISA e também me dedico à elaboração de automatizações com o uso de linguagens como <b>Python, VBA, DAX, Power Query, Microsoft Automate e SQL.</b></p>
 
-            <p class="about__paragraph" id="linkskills">No início de 2022, tive a oportunidade de me aprofundar ainda mais em minhas habilidades tecnológicas, ao participar de uma formação ofertada pela Alura e Oracle para programação de elaboração e criação de sites, além de uma formação em Ciência de Dados. Durante esse período, participei de diversos cursos para formação de profissionais nas áreas de Back-End e Front-End, aprendendo linguagens como HTML, CSS, JavaScript, Grid e Flex Box.<br><br></p>
+            <p class="about__paragraph" id="linkskills">No início de 2022, tive a oportunidade de me aprofundar ainda mais em minhas habilidades tecnológicas, ao participar de uma formação ofertada pela Alura e Oracle para programação de elaboração e criação de sites, além de uma formação em Ciência de Dados. Durante esse período, participei de diversos cursos para formação de profissionais nas áreas de Back-End e Front-End, aprendendo linguagens como HTML, CSS, JavaScript, Grid e Flex Box.</p>
+
+            <p class="about__paragraph" id="linkskills">Em 2023, tive a oportunidade gratificante de desempenhar o papel de Consultor Analítico em um projeto de Decommissioning da TIM, a maior empresa de telefonia do Brasil, em uma renomada empresa internacional de tecnologia. Durante essa experiência, desempenhei um papel crucial na automação de relatórios e no desenvolvimento de bases para uma análise aprofundada de Big Data. Utilizei ferramentas avançadas, incluindo o Alteryx, que desempenhou um papel essencial na automação eficiente de diversas atividades. Este trabalho não apenas aprimorou minha capacidade de análise de dados, mas também contribuiu significativamente para a eficiência operacional no âmbito do projeto Decommissioning da TIM. <br><br></p>
 
             <!-- Si quieres, pon tú firma acá! -->
             <img src="assets\signature.png">
@@ -171,7 +186,7 @@
     </section>
 
     <!-- Sección de Hobbies -->
-    <section class="hobbies" id="hobbies">
+    <!--<section class="hobbies" id="hobbies">
         <h3 class="hobbies__title">Hobbies</h3>
             <div class="hobbies__line">
                 <div class="hobbies__box">
@@ -216,7 +231,7 @@
                     </ul>
                 </div>
         </div>
-    </section>
+    </section>-->
 
         <!-- Sección de Formación académica -->
     <section class="academic" id="formacion">
@@ -256,17 +271,188 @@
             </div>
         </div>
     </section>
+    
 
     <!-- Sección de Experiencia Profesional/Proyectos-->
     <section class="experience" id="xp">
         <h2 class="experience__section__title" >Experiência Profissional</h2>
 
+
+        <!--Carousel Bar Slider Bar Power BI-->
+
+        <section class="carousel_bi">
+            <div class="container_carousel swiper mySwiper ">
+                <div class="content swiper-wrapper ">
+
+                    <div class="card swiper-slide " >
+                        <div class="card-content">
+                            <div class="image">
+                                <!--<img src="assets\capemisa_print.png" alt="alterative">-->
+                                <iframe title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiNTY1MGRjODktZjA0OS00MTkyLWFkYjEtNTJkZDIyYTNlMTkyIiwidCI6Ijc5NWQ1MWVlLTBmOWYtNDZkZS1iMGIzLTkwZWI1Y2E1ZmU4NiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">
+                                    Dashboard de Compras 
+                                </span>
+                                <span class="descricao">
+                                    Nesse dashboard é possível analisar o saving, custo mensal, além do Lead Time de Despacho por fornecedor.
+                                </span>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide " >
+                        <div class="card-content">
+                            <div class="image">
+                                <iframe title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiNjY2ZDhkYWItYTg0Yy00NjJjLWI5OTAtZGNlNWFkYzZiMGM5IiwidCI6Ijc5NWQ1MWVlLTBmOWYtNDZkZS1iMGIzLTkwZWI1Y2E1ZmU4NiJ9" frameborder="0" allowFullScreen="true"></iframe>                            
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">
+                                    Dashboard de Produção
+                                </span>
+                                <span class="descricao">
+                                    É possível ver uma linha de produção mensal com KPIs indicando a quantidade de eficiência nas etapas de produção.
+                                </span>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide " >
+                        <div class="card-content">
+                            <div class="image">
+                                <iframe title="8. Dashboard Produção" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiOTU3ZjY2ZjktOGU5Ny00ZTcxLTkxY2QtMWM2Y2M2M2E5YTdjIiwidCI6Ijc5NWQ1MWVlLTBmOWYtNDZkZS1iMGIzLTkwZWI1Y2E1ZmU4NiJ9&pageName=ReportSection906fbc6804474d42be04" frameborder="0" allowFullScreen="true"></iframe>
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">
+                                    Dashboard de Produção 2
+                                </span>
+                                <span class="descricao">
+                                    Esse dashboard demonstra a complexidade de criação do Power BI, com a integração de diversas páginas, além das medidas dinâmicas de calculos.
+                                </span>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card swiper-slide " >
+                        <div class="card-content">
+                            <div class="image">
+                                <iframe title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiN2Y0ZTIwMWItODI4OC00NWY2LWEyMzktYTMzNTZiYzdhNjg1IiwidCI6Ijc5NWQ1MWVlLTBmOWYtNDZkZS1iMGIzLTkwZWI1Y2E1ZmU4NiJ9&pageName=ReportSectionf1251650978e59a95719" frameborder="0" allowFullScreen="true"></iframe>
+                            </div>
+                            <div class="name-profession">
+                                <span class="name">
+                                    Dashboard Financeiro
+                                </span>
+                                <span class="descricao">
+                                    Nesse dashboard demonstra o valor financeiro de uma empresa, com graficos gerais, recebimentos e pagamentos.
+                                </span>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>            
+
+
+                    <div class="card swiper-slide " >
+                        <div class="card-content">
+                            <div class="image">
+                                <iframe title="Report Section" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMjgwMzY0MmEtOTlhZS00ZTk3LTllYTUtMjljNzRkZDlhNzZiIiwidCI6Ijc5NWQ1MWVlLTBmOWYtNDZkZS1iMGIzLTkwZWI1Y2E1ZmU4NiJ9&pageName=ReportSectionc6fc20e992008871a377" frameborder="0" allowFullScreen="true"></iframe>                    
+                            </div>
+
+                            <div class="name-profession">
+                                <span class="name">
+                                    Dashboard de Logistica
+                                </span>
+                                <span class="descricao">
+                                    O relatório demonstra uma visão geral da losgitica de uma empresa de produção com a visão de custo por veículos.
+                                </span>
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </section>
+
+
+        <!--  Experiencia Profissional  -->
+
+        <div class="experience__box">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="assets\Inetum.jpg">
+            <div class="experience__info-container">
+                <h2 class="experience__title">Consultor DataViz</h2>
+
+                    <h3 class="experience__text">Em 2023, tive a oportunidade gratificante de desempenhar o papel de Consultor Analítico em um projeto
+                         de Decommissioning da TIM, a maior empresa de telefonia do Brasil, em uma renomada empresa internacional de tecnologia. Durante 
+                         essa experiência, desempenhei um papel crucial na automação de relatórios e no desenvolvimento de bases para uma análise aprofundada 
+                         de Big Data. Utilizei ferramentas avançadas, incluindo o Alteryx, que desempenhou um papel essencial na automação eficiente de 
+                         diversas atividades. Este trabalho não apenas aprimorou minha capacidade de análise de dados, mas também contribuiu significativamente
+                          para a eficiência operacional no âmbito do projeto Decommissioning da TIM.</b></h3>
+                        <div class="experience__description">
+                            <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a href="https://www.gov.br/icmbio/pt-br/assuntos/pesquisa/seminarios-de-pesquisa/anais_xi_seminario_2020.pdf"><button class="experiencia__botao--repo">Seminário da Pesquisa</button></a></span>
+                            <span class="experience__repo"><a href="https://www.instagram.com/geohmount/"><button class="experiencia__botao--repo">Instagram</button></a></span>
+                            <span class="experience__demo"><a href="assets\bh_apresentacao.pdf" download="bh_apresentacao.pdf"><button class="experience__botao--demo">Download</button></a></span>
+                            
+                        </div>
+            </div>
+        </div>  
+
+        
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
             <img class="experience__img" src="assets\capemisa_print.png">
             <div class="experience__info">
-                <h2 class="experience__title">Estágio em Relatórios Gerenciais (Power BI)</h2>
-                <h3 class="experience__text">Durante meu estágio na Capemisa Seguradora, trabalhei no setor de
+                <h2 class="experience__title"> Relatórios Gerenciais (Power BI)</h2>
+                <h3 class="experience__text">Na Capemisa Seguradora, trabalhei no setor de
                     relatórios gerenciais, utilizando ferramentas como <b>Power BI, Excel, VBA,
                     Python e Microsoft Power Automate</b> para criação de relatórios e indicadores
                     para a empresa, além de automatizar processos administrativos. Também
@@ -283,7 +469,7 @@
             <img class="experience__img" id="experience__img__celular" src="assets\bhs_print.png">
             <div class="experience__info-container">
                 <h2 class="experience__title">Pesquisa em Iniciação Científica</h2>
-                <h3 class="experience__text">Cálculo do Balanço hídrico por Thornthwaite e Mather</h2>
+                <h3 class="experience__text">Cálculo do Balanço hídrico por Thornthwaite e Mather</h3>
                     <h3 class="experience__text">Como bolsista de pesquisa em Iniciação
                         Científica, tive a oportunidade de avaliar os efeitos das atividades humanas no
                         equilíbrio hidrogeoquímico e geoquímico das microbacias montanhosas da
@@ -330,8 +516,8 @@
             <iframe class="experience__img"  src="assets\incendio_apresentacao.pdf"></iframe> 
             <img class="experience__img" id="experience__img__celular" src="assets\incendios_print.png">
             <div class="experience__info-container">
-                <h2 class="experience__title">Analises de Incêndio no PARNASO</h2>
-                <h3 class="experience__text">Relação entre focos de incêndio e a sazonalidade pluviométrica nos municípios englobados pelo parnaso: 2014-2019</h2>
+                <h2 class="experience__title">Análises de Incêndio no PARNASO</h2>
+                <h3 class="experience__text">Relação entre focos de incêndio e a sazonalidade pluviométrica nos municípios englobados pelo parnaso: 2014-2019</h3>
                     <h3 class="experience__text">Especificamente, eu analisei a distribuição das chuvas no período de 
                         janeiro de 2018 a fevereiro de 2020, com o intuito de apoiar as análises hidrogeoquímicas e 
                         avaliar as variações sazonais das chuvas nas 3 cabeceiras de drenagem monitoradas, Soberbo (SB), 
@@ -443,5 +629,29 @@
 
  <!-- Script del documento JavaScript -->
 <script src="validacion.js"></script>
+
+
+
+<!-- Script do Carrossel Slide Bar-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+    });
+    </script>
 </body>
 </html>

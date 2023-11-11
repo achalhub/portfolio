@@ -119,6 +119,11 @@ section nav{
     font-weight: bold;
 }
 
+
+
+
+
+
 /*######################################################################################*/
 /*Sección popup do PDF*/
 .cv__pdf {
@@ -187,6 +192,7 @@ section div.title__div{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-around;
 }
 
 .title__bio {
@@ -1372,6 +1378,7 @@ Utiliza las referencias de los breakpoints @media abajo */
         justify-content: space-between;
         align-items:  center;  
         flex-wrap: wrap;
+        
 
     }
 
