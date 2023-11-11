@@ -192,7 +192,7 @@ section div.title__div{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .title__bio {
